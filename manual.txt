@@ -1,0 +1,21 @@
+Welcome in cockCommunication software
+   --> ./cockCom mode netAdress port nickname <--
+   <mode> 
+	<s> to act as a server
+        <c> to act as a client
+   <netAdress> 
+	<127.0.0.1> example, to create a connection on this adress
+   <port> 
+	<8080> example, to create a connection on this port
+   <nickname> 
+	<brazo> max 5 char, use only in client case
+   info:
+      -when client, type exit() to quit the room
+      -max length for words: 122 char
+      -use the same password on the same room to comunicate 
+   SAMPLE:
+	--> ./cockCom s 127.0.0.1 8080 <-- start server on local adress on port 8080
+	--> ./cockCom c 127.0.0.1 8080 brazo <-- start client connecting to a server on local adress and port 8080 with brazo as nickname
+ENJOY!
+
+                              
