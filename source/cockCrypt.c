@@ -1,7 +1,7 @@
 #include "cockCrypt.h"
 
 void cockKeyIv(const char *password, unsigned char *key, unsigned char *iv) {
-    const unsigned char *salt = (const unsigned char *)"salt";
+    const unsigned char *salt = (const unsigned char *)"emma";
     if (PKCS5_PBKDF2_HMAC(password, strlen(password), salt, SALT_LENGTH, 10000, EVP_sha256(), AES_KEYLENGTH, key) != 1) {
         perror("failed to derive key and iv from psw");
         exit(EXIT_FAILURE);
