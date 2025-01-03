@@ -1,1 +1,1 @@
-C chat-room application running in linux env, that provides chattin' functionality and encoding functionality. Enjoy!
+C chat-room application running in linux env, that provides chatting functionality and encoding functionality. Created as a final project for my 'Programmazione' course at Università Statale di Milano. Special thanks to my professor Marco Anisetti.
