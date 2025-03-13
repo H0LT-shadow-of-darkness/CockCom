@@ -1,5 +1,5 @@
 #include "cockClient.h"
-
+//GIT TEST
 typedef struct {
     int* socket; //used to pass the socket id to the thread
     pthread_t* thread; //used to cancel readThread from writeThread
